@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download a Build Artifact
-      uses: actions/download-artifact@8
+      uses: actions/download-artifact@v8
       with:
         name: hello-artifact
-        path: hello.txt
+        path: hello1.txt

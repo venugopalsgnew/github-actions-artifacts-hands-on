@@ -25,5 +25,5 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v8
       with:
-        name: artifacts
-        path: hello.txt
+        name: hello-artifact
+        path: ./artifacts/hello.txt
